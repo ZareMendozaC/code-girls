@@ -1,7 +1,6 @@
 /**/
 
 *{
-	outline: 1px solid green;
 	box-sizing: border-box;
 }
 /*ESTILOS NAV-BAR*/
@@ -45,7 +44,7 @@ header h3{
 	left: 50%;
 	text-align:center; 
     display:table;
-    transform: translateX(-50%) translateY(100%);
+    transform: translateX(-50%) translateY(150%);
     position: absolute;
 }
 .hero{
@@ -53,4 +52,67 @@ header h3{
 	height: 500px;
 	background-size: cover;
 	background-attachment: fixed;
+}
+.centrar h2{
+	margin:0px 15px;
+	color: white;
+}
+.centrar h5{
+	margin:15px;
+	color:#344544;
+}
+
+/*MULTIMEDIA SECTION*/
+.multimedia p{
+	margin:20px;
+}
+.multimedia h3{
+	margin: 40px 0px;
+}
+
+/*HACKATHON SECTION*/
+.hackathon{
+	background-color: #ffff00;
+	margin-top: 45px;
+}
+.img-hack{
+	width: 80%;
+	margin: 30px;
+}
+.info-hack
+{
+	margin-top: 8%;
+}
+
+/*CONTACT SECTION*/
+.img-contac{
+	width: 95%;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	margin-right: 10px;
+}
+.contacto h4{
+	margin-top:50px;
+}
+.contacto h5{
+	margin-top: 20px;
+}
+ .form-group{
+	margin-top: -5px;
+	margin-right: 10px;
+}
+/*FOOTER*/
+footer{
+	background: #4497a3;
+	font-family: sans-serif;
+	font-size: 13px;
+	height: 80px;
+	margin-top: 40px;
+}
+footer p{
+	color:#fff;
+	margin: 30px;
+}
+footer a{
+	color:#e7e958;
 }
