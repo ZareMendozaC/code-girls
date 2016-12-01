@@ -1,0 +1,56 @@
+/**/
+
+*{
+	outline: 1px solid green;
+	box-sizing: border-box;
+}
+/*ESTILOS NAV-BAR*/
+header{ 
+	background-color: #f8f8f8; 
+	padding:0px 0px;
+}
+header nav { 
+	text-align: right; 
+}
+header nav ul { 
+	list-style-type: none;
+}
+header nav ul li { 
+	display: inline; 
+}
+header nav ul li a { 
+	font-size: 1.2em; 
+	color: #817f7f;
+}
+header nav a:hover { 
+	text-decoration: none; 
+}
+.navbar button span{ 
+	background-color: #817f7f;
+}
+.navbar button {
+	background-color:#f8f8f8;
+	border: 1px solid #817f7f;
+}
+header h3{
+	color: #817f7f;
+}
+/*HERO SECTION*/
+.centrar{
+	vertical-align:middle;
+	display:table-cell;
+}
+.centrado{
+	top:50%;
+	left: 50%;
+	text-align:center; 
+    display:table;
+    transform: translateX(-50%) translateY(100%);
+    position: absolute;
+}
+.hero{
+	background: url(../img/home.jpg)no-repeat;
+	height: 500px;
+	background-size: cover;
+	background-attachment: fixed;
+}
